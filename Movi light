@@ -1,0 +1,27 @@
+export default function Home() {
+  return (
+    <div
+      style={{
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundImage: "url('/banner.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <h1
+        style={{
+          color: "white",
+          fontSize: "3rem",
+          backgroundColor: "rgba(0,0,0,0.5)",
+          padding: "20px",
+          borderRadius: "15px",
+        }}
+      >
+        MOVI LIGHT
+      </h1>
+    </div>
+  );
+}
